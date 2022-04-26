@@ -1,17 +1,70 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Parallax Scrolling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&family=Water+Brush&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-light bg-light nav-font">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Concert Series</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#v">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#t">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#s">Seating</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>              
+
+      <div class="venue parallax" id="v"> 
+        <h1>The Big Concert</h1>
+      </div>
+
+      <div class="tickets parallax" id="t">
+        <div class="container-fluid py-5 text-center bg-light">    
+          <h2 class="fw-bold">Get Your Seats Now!</h2>  
+          <h3 class="fw-bold">Pick out the right seats for you for this once in a lifetime event!</h3>
+        </div>
+      </div>
+
+      <div class="seating parallax" id="s"> </div>
+
+      <footer class="container-fluid mt-4 bg-secondary">
+        <div class="card d-inline-flex image-fluid m-2" style="width: 2rem;">
+          <a href="https://twitter.com" target="_blank">
+            <img src="/Images/twitter.png" class="card-img-top" alt="Twitter Home">
+          </a>
+        </div>
+  
+        <div class="card d-inline-flex image-fluid m-2" style="width: 2rem;">
+          <a href="https://instagram.com" target="_blank">
+            <img src="/Images/Instagram.png" class="card-img-top" alt="Instagram Home">
+          </a>
+        </div>
+  
+        <div class="card d-inline-flex image-fluid m-2" style="width: 2rem;">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="/Images/FB.jpg" class="card-img-top" alt="Facebook Home">
+          </a>
+        </div>
+      </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
