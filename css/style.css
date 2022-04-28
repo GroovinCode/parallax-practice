@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Water Brush', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: .2em;
+    color: yellow;
+}
+
+.nav-font {
+    font-family: 'Tapestry', cursive;
+}
+
+body, html {
+    height: 100%;
+}
+
+.venue {
+  background-image: url("/Images/Vina\ Robles\ Amphitheatre.jpg");
+  height: 100%;
+}
+
+.tickets{
+    background-image: url(/Images/side\ venue.jpg);
+    height: 100%;
+}
+
+.seating {
+    background-image: url(/Images/seating.png);
+    height: 100%;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
