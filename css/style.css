@@ -15,17 +15,17 @@ body, html {
 }
 
 .venue {
-  background-image: url("../Images/Vina\ Robles\ Amphitheatre.jpg");
+  background-image: url=("/Images/Vina\ Robles\ Amphitheatre.jpg");
   height: 100%;
 }
 
 .tickets{
-    background-image: url("../Images/side\ venue.jpg");
+    background-image: url=("/Images/side\ venue.jpg");
     height: 100%;
 }
 
 .seating {
-    background-image: url("../Images/seating.png");
+    background-image: url=("/Images/seating.png");
     height: 100%;
 }
 
