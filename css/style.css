@@ -20,12 +20,12 @@ body, html {
 }
 
 .tickets{
-    background-image: url(../Images/side\ venue.jpg);
+    background-image: url("../Images/side\ venue.jpg");
     height: 100%;
 }
 
 .seating {
-    background-image: url("Images/seating.png");
+    background-image: url("../Images/seating.png");
     height: 100%;
 }
 
