@@ -20,7 +20,7 @@ body, html {
 }
 
 .tickets{
-    background-image: url("../Images/side\ venue.jpg");
+    background-image: url(../Images/side\ venue.jpg);
     height: 100%;
 }
 
